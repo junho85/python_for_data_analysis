@@ -39,7 +39,9 @@ def get_counts2(sequence):
         counts[x] += 1
     return counts
 
+
 counts = get_counts(time_zones)
+counts = get_counts2(time_zones)
 
 counts['America/New_York']
 len(time_zones)
