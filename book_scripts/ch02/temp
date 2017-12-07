@@ -1,0 +1,5 @@
+[junho85@mail-was-1 was_api]$ ./check.pl --email=global@kakaocorp.com
+curl --data "email=global@kakaocorp.com" 'http://localhost/hanmailex/api/domain/IsAbleToUseEmail.daum'
+{"result":"SUCCESS","msg":"NOT_EXIST_EMAIL"}
+
+./create.pl --daumid='+global' --userid=B7HjY --name="global(Global)" --email=global@kakaocorp.com

@@ -1,0 +1,95 @@
+USERID	이전 도메인	신규 도메인	도메인 업데이트 여부	발신자 정보 업데이트 여부
+
+TODO
+B7HjY	Global@daumkakao.com	Global@kakaocorp.com	\N	\N
+도메인 already
+http://wiki.daumkakao.com/pages/viewpage.action?pageId=48521166
+
+domain_lookup 없음
+
+./create.pl --daumid='+global' --userid=B7HjY --name="global(Global)" --email=global@kakaocorp.com
+이미 도메인 서비스를 사용 중이라고 오류남.
+service_type M 이면 무시 하는거 아니었나? 다른거는 잘 되었는데?
+
++global 계정이 휴면 상태인 것과 관련이 있나?
+
+DONE
+발신자 직접 호출 처리
+http://mail-kairos-vmdev.dakao.io:9999/api/option/change/+global
+
+
+
+TODO
+B9DFF	papartner@daumkakao.com	papartner@kakaocorp.com	\N	\N
+./create.pl --daumid='+papartner' --userid=B9DFF --name="PApartner(PApartner))" --email=papartner@kakaocorp.com
+휴면 아님. ALREADY_USE
+
+domain_lookup 없음
+
+
+DONE
+http://mail-kairos-vmdev.dakao.io:9999/api/option/change/+papartner
+
+BTRVS	idtest1111@daumkakao.com	idtest1111@kakaocorp.com	20150930185949	\N
+테스트 계정 생략
+BTRVU	idtest1112@daumkakao.com	idtest1112@kakaocorp.com	20150930185950	\N
+테스트 계정 생략
+BTRVV	idtest1113@daumkakao.com	idtest1113@kakaocorp.com	20150930185950	\N
+테스트 계정 생략
+BTRVW	idtest1114@daumkakao.com	idtest1114@kakaocorp.com	20150930185950	\N
+테스트 계정 생략
+
+BI6RA	newcontract_pa@daumkakao.com	newcontract_pa@kakaocorp.com	\N	\N
+
+
+B7HjQ	Elon.Cho@daumkakao.com	Elon.Cho@kakaocorp.com	\N	\N
+B7IfZ	Kyle.lim@daumkakao.com	Kyle.lim@kakaocorp.com	\N	\N
+B7EMH	ryan.yoon@daumkakao.com	ryan.yoon@kakaocorp.com	\N	20150930190822
+B7Ifh	Laura.kim@daumkakao.com	Laura.kim@kakaocorp.com	\N	\N
+B7Ifj	Mark.sun@daumkakao.com	Mark.sun@kakaocorp.com	\N	\N
+B7ET5	leon.a@daumkakao.com	leon.a@kakaocorp.com	\N	20150930190921
+B7Ifk	live.Lee@daumkakao.com	live.Lee@kakaocorp.com	\N	\N
+B7Ifn	Grant.six@daumkakao.com	Grant.six@kakaocorp.com	\N	\N
+BO95X	thames.kang@daumkakao.com	thames.kang@kakaocorp.com	\N	\N
+BS0ek	lion.k@daumkakao.com	lion.k@kakaocorp.com	\N	\N
+BS50Q	pai.lee@daumkakao.com	pai.lee@kakaocorp.com	\N	\N
+B7EuJ	mario.nicolas@daumkakao.com	mario.nicolas@kakaocorp.com	20150930190309	\N
+B889B	Jason.gao@daumkakao.com	Jason.gao@kakaocorp.com	\N	\N
+BERL7	roy.wen@daumkakao.com	roy.wen@kakaocorp.com	\N	\N
+BERL9	lewis.x@daumkakao.com	lewis.x@kakaocorp.com	\N	\N
+BI1IJ	calvin.kim@daumkakao.com	calvin.kim@kakaocorp.com	\N	\N
+BKro1	allen.liu@daumkakao.com	allen.liu@kakaocorp.com	\N	\N
+BM1zY	howen.xiong@daumkakao.com	howen.xiong@kakaocorp.com	\N	\N
+BMQuh	bety.rosa@daumkakao.com	bety.rosa@kakaocorp.com	\N	\N
+BK0DW	jake.kvg@daumkakao.com	jake.kvg@kakaocorp.com	\N	\N
+BMq1d	lois.kvg@daumkakao.com	lois.kvg@kakaocorp.com	\N	\N
+BEyDB	raven.jeong@daumkakao.com	raven.jeong@kakaocorp.com	\N	\N
+BMl0S	hee.kwon@daumkakao.com	hee.kwon@kakaocorp.com	\N	\N
+BHRbB	lucy.kyoung@daumkakao.com	lucy.kyoung@kakaocorp.com	\N	\N
+BLNO6	jade.bright@daumkakao.com	jade.bright@kakaocorp.com	\N	\N
+BP5pd	claude.p@daumkakao.com	claude.p@kakaocorp.com	\N	\N
+BP5be	brian.soo@daumkakao.com	brian.soo@kakaocorp.com	\N	\N
+BP5bj	helena.k@daumkakao.com	helena.k@kakaocorp.com	\N	\N
+BRCFy	genie.hyun@daumkakao.com	genie.hyun@kakaocorp.com	\N	\N
+BRW2n	andy.kim@daumkakao.com	andy.kim@kakaocorp.com	\N	\N
+BRZQr	lynsey.kim@daumkakao.com	lynsey.kim@kakaocorp.com	\N	\N
+BRXKQ	harry.kang@daumkakao.com	harry.kang@kakaocorp.com	\N	\N
+BRXKL	ruby.sin@daumkakao.com	ruby.sin@kakaocorp.com	\N	\N
+BS8Yi	lisa.j@daumkakao.com	lisa.j@kakaocorp.com	\N	\N
+BI1IL	lewis.kwon@daumkakao.com	lewis.kwon@kakaocorp.com	\N	\N
+BNSmx	jun.kim@daumkakao.com	jun.kim@kakaocorp.com	\N	\N
+BP9IF	eileen.oh@daumkakao.com	eileen.oh@kakaocorp.com	\N	\N
+BPPPL	lucia.j@daumkakao.com	lucia.j@kakaocorp.com	\N	\N
+BRCFs	bambi.j@daumkakao.com	bambi.j@kakaocorp.com	\N	\N
+BTtyq	Kangsan.dkb@daumkakao.com	Kangsan.dkb@kakaocorp.com	\N	\N
+B7Hki	T.Tyrion@daumkakao.com	T.Tyrion@kakaocorp.com	\N	\N
+B7Hkh	T.Nina@daumkakao.com	T.Nina@kakaocorp.com	\N	\N
+B7Hkg	T.Juliet@daumkakao.com	T.Juliet@kakaocorp.com	\N	\N
+B7Hkf	T.Jake@daumkakao.com	T.Jake@kakaocorp.com	\N	\N
+B7Ifp	emma.K@daumkakao.com	emma.K@kakaocorp.com	\N	\N
+B7Ifo	uribe.Kim@daumkakao.com	uribe.Kim@kakaocorp.com	\N	\N
+BH0RZ	kakaoth@daumkakao.com	kakaoth@kakaocorp.com	\N	\N
+BIqT1	eddy.park@daumkakao.com	eddy.park@kakaocorp.com	\N	\N
+BKl7c	lux.daddys@daumkakao.com	lux.daddys@kakaocorp.com	\N	\N
+BO8mU	leo.kang@daumkakao.com	leo.kang@kakaocorp.com	\N	\N
+BO95R	joey.k@daumkakao.com	joey.k@kakaocorp.com	\N	\N
